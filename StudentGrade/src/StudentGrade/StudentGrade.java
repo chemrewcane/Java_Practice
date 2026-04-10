@@ -8,10 +8,10 @@ public class StudentGrade {
 
 		System.out.println("--- Input Grades ---");
 
-		int s = 3;
+		int student = 3;
 		double[][] report = new double [4][4];
 
-		for (int i = 0; i < s; i++) {
+		for (int i = 0; i < student; i++) {
 			System.out.println("Enter grades for Student " + (i+1) + ":");
 
 			System.out.print("Math: ");
@@ -32,14 +32,14 @@ public class StudentGrade {
 		System.out.println("--- Grade Report ---");
 		System.out.printf("%-10s %-10s %-10s %-10s%n", "Student", "Math", "Science", "English");
 
-		for (int i = 0; i < s; i++) {
+		for (int i = 0; i < student; i++) {
 			System.out.printf("%-10s %-10.2f %-10.2f %-10.2f%n", "Student "+ (i+1), report[i][0], report[i][1], report[i][2]);
 		}
 
 		System.out.println("---------------------------------------------\n");
 
 		System.out.println("--- Average per Student (Row) ---");
-		for (int i = 0; i < s; i++) {
+		for (int i = 0; i < student; i++) {
 			double sum = report[i][0] + report[i][1] + report[i][2];
 			double result = sum/3;
 			System.out.printf("%s %s %.2f%n", "Student " + (i+1), " Average: ", result);
