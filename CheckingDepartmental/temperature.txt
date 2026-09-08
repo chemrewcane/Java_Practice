@@ -1,3 +1,0 @@
-Fridge 1: 23.0 - High
-Fridge 2: 23.0 - High
-Fridge 3: 23.0 - High
