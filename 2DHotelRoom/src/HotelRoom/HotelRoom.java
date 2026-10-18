@@ -69,7 +69,7 @@ public class HotelRoom {
 				System.out.println("Invalid. Please try again.");
 			}
 			
-			//Additional for my code (for inputing '4').
+			//Additional for my code (for inputing '4' hehe).
 			while (choice == 4) {
 				System.out.println("Thank you! Please come again!");
 				break;
